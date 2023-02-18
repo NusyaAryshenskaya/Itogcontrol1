@@ -21,5 +21,6 @@ for (int i = 0; i < array.Length; i++)
 
 
 result = result[..^(array.Length - count)];
+
 WriteLine();
 WriteLine("Новый массив из строк, длина которых меньше или равна 3 : [{0}]", String.Join(",", result));
